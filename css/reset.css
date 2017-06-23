@@ -1,0 +1,48 @@
+/* reset.css */
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@font-face {
+	font-family: 'FUTURA BOLD';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../font/futura-bold-webfont.eot');
+	src: url('../font/futura-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../font/futura-bold-webfont.woff') format('woff'), url('../font/futura-bold-webfont.woff2') format('woff2'), url('../font/futura-bold-webfont.ttf') format('truetype'), url('../font/futura-bold-webfont.svg') format('svg');
+}
+
+html,body,div,span,iframe,h1,h2,p,a,img,ul,li,article,aside,footer,header,nav,section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+article,aside,footer,header,nav,section {
+	display: block;
+}
+
+body {
+	position: relative;
+	min-width: 1000px;
+	font-family: 'FUTURA BOLD', 'Nanum Gothic';
+	font-size: 12px;
+	color: #fff;
+	background: #000;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+b,strong {
+	font-weight: bold;
+}
+
+img {
+	vertical-align: middle;
+}

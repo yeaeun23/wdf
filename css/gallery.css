@@ -1,0 +1,123 @@
+/* gallery.css */
+
+
+/***** section *****/
+
+.gallery-list ul {
+	overflow: hidden;
+	margin: -20px;
+	height: 780px;
+}
+
+.gallery-list li {
+	position: relative;
+	float: left;
+	margin: 20px;
+	width: 220px;
+	height: 220px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.gallery-list li img {
+	width: 100%;
+	height: 100%;
+	-webkit-transition: all .6s cubic-bezier(.19, 1, .22, 1);
+	-moz-transition: all .6s cubic-bezier(.19, 1, .22, 1);
+	-ms-transition: all .6s cubic-bezier(.19, 1, .22, 1);
+	-o-transition: all .6s cubic-bezier(.19, 1, .22, 1);
+	transition: all .6s cubic-bezier(.19, 1, .22, 1);
+}
+
+.gallery-list li:hover>img {
+	-webkit-transform: scale(1.12);
+	-moz-transform: scale(1.12);
+	-ms-transform: scale(1.12);
+	-o-transform: scale(1.12);
+	transform: scale(1.12);
+}
+
+.gallery-list li span.on {
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../img/gallery/photo_hover.png) center center;
+}
+
+.gallery-list li:hover>span.on {
+	display: block;
+}
+
+.gallery-load-btn {
+	margin: 50px 0;
+	cursor: pointer;
+}
+
+.gallery-load-btn p {
+	border: 1px solid darkgray;
+	padding: 12px 0;
+	color: darkgray;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+/***** gallery-popup *****/
+
+#gallery-popup {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 900;
+}
+
+#popup-content {
+	position: fixed;
+	width: 700px;
+	height: 700px;
+	top: 50%;
+	left: 50%;
+	margin-top: -350px;
+	margin-left: -350px;
+	z-index: 1000;
+}
+
+#popup-content>img {
+	width: 100%;
+}
+
+#popup-content>img:hover {
+	cursor: zoom-out;
+}
+
+p.popup-arrow-left {
+	position: fixed;
+	top: 50%;
+	left: 10%;
+	margin-top: -32px;
+	display: block;
+	width: 64px;
+	height: 64px;
+	background: url(../img/gallery/popup-arrow-left.png) no-repeat center center;
+	cursor: pointer;
+}
+
+p.popup-arrow-right {
+	position: fixed;
+	top: 50%;
+	right: 10%;
+	margin-top: -32px;
+	display: block;
+	width: 64px;
+	height: 64px;
+	background: url(../img/gallery/popup-arrow-right.png) no-repeat center center;
+	cursor: pointer;
+}

@@ -1,0 +1,130 @@
+/* tickets.css */
+
+
+/***** section *****/
+
+.line {
+	width: 1000px;
+	height: 6px;
+	background: url(../img/tickets/line.png) center;
+}
+
+.ticket-list {
+	overflow: hidden;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.ticket-list dt {
+	float: left;
+	width: 250px;
+	height: 107px;
+	margin-top: 51px;
+}
+
+.ticket-list dt.venue-pickup {
+	height: 423px;
+}
+
+.ticket-list dt p.ticket-category-en {
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 6px;
+}
+
+.ticket-list dt p.ticket-category-ko {
+	font-size: 16px;
+}
+
+.ticket-list dd {
+	float: left;
+	width: 110px;
+	height: 110px;
+	margin: 24px;
+}
+
+.ticket-list dd:nth-child(4n-2) {
+	margin-left: 81px;
+}
+
+.ticket-list dd:nth-child(4n-3) {
+	margin-right: 81px;
+}
+
+.ticket-list dd a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	background: white;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-transition: border-box;
+	-o-transition: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .3s cubic-bezier(.19, 1, .22, 1);
+	-moz-transition: all .3s cubic-bezier(.19, 1, .22, 1);
+	-ms-transition: all .3s cubic-bezier(.19, 1, .22, 1);
+	-o-transition: all .3s cubic-bezier(.19, 1, .22, 1);
+	transition: all .3s cubic-bezier(.19, 1, .22, 1);
+}
+
+.ticket-list dd a:hover {
+	border: 3px inset #ff02ff;
+}
+
+.ticket-list dd a.coupang {
+	background: url(../img/tickets/coupang.jpg) center;
+}
+
+.ticket-list dd a.interpark {
+	background: url(../img/tickets/interpark.jpg) center;
+}
+
+.ticket-list dd a.interpark-en {
+	background: url(../img/tickets/interpark_en.jpg) center;
+}
+
+.ticket-list dd a.interpark-jp {
+	background: url(../img/tickets/interpark_jp.jpg) center;
+}
+
+.ticket-list dd a.interpark-ck {
+	background: url(../img/tickets/interpark_ck.jpg) center;
+}
+
+.ticket-list dd a.tmon {
+	background: url(../img/tickets/tmon.jpg) center;
+}
+
+.ticket-list dd a.wemakeprice {
+	background: url(../img/tickets/wemakeprice.jpg) center;
+}
+
+.ticket-list dd a.yes24 {
+	background: url(../img/tickets/yes24.jpg) center;
+}
+
+.ticket-list dd a.auction {
+	background: url(../img/tickets/auction.jpg) center;
+}
+
+.ticket-list dd a.ticketlink {
+	background: url(../img/tickets/ticketlink.jpg) center;
+}
+
+.ticket-list dd a.melon {
+	background: url(../img/tickets/melon.jpg) center;
+}
+
+.ticket-list dd a.hana {
+	background: url(../img/tickets/hana.jpg) center;
+}
+
+.ticket-list dd a.bepc {
+	background: url(../img/tickets/bepc.jpg) center;
+}

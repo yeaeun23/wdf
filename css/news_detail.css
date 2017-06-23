@@ -1,0 +1,107 @@
+/* news_detail.css */
+
+
+/***** section > article *****/
+
+.news-top {
+	overflow: hidden;
+	border-bottom: 2px solid #ff02ff;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.news-top p.news-title {
+	float: left;
+	font-size: 26px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.news-top a.news-list-btn {
+	float: right;
+	display: block;
+	font-size: 17px;
+	background: #ff02ff;
+	padding: 5px 10px;
+	border-radius: 1px;
+	margin-right: 20px;
+}
+
+.news-date {
+	text-align: right;
+	margin-right: 20px;
+	font-size: 14px;
+	color: darkgray;
+}
+
+.news-content {
+	padding: 30px 190px 50px;
+	border-bottom: 2px solid gray;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+.news-content img {
+	display: block;
+	margin-bottom: 40px;
+	width: 100%;
+	height: 100%;
+}
+
+
+/***** section > aside *****/
+
+.news-bottom {
+	overflow: hidden;
+}
+
+.news-bottom a {
+	display: block;
+	-webkit-transition: all .3s cubic-bezier(.19, 1, .22, 1);
+	-moz-transition: all .3s cubic-bezier(.19, 1, .22, 1);
+	-ms-transition: all .3s cubic-bezier(.19, 1, .22, 1);
+	-o-transition: all .3s cubic-bezier(.19, 1, .22, 1);
+	transition: all .3s cubic-bezier(.19, 1, .22, 1);
+}
+
+.news-bottom a:hover {
+	background: #333333;
+}
+
+.news-bottom a.prev-news {
+	float: left;
+}
+
+.news-bottom a.next-news {
+	float: right;
+}
+
+.news-bottom a div {
+	display: inline-block;
+	padding: 10px;
+}
+
+.news-bottom a div.img {
+	width: 100px;
+	height: 100px;
+}
+
+.news-bottom a div.img img {
+	width: 100%;
+	height: 100%;
+}
+
+.news-bottom a div.txt {
+	width: 200px;
+	font-size: 12px;
+	text-transform: uppercase;
+	vertical-align: middle;
+	line-height: 260%;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.news-bottom a.next-news div.txt {
+	text-align: right;
+}

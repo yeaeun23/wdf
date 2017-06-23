@@ -1,0 +1,208 @@
+/* lineup.css */
+
+.section-content {
+	position: relative;
+	overflow: hidden;
+}
+
+
+/***** section > aside *****/
+
+.section-content-left {
+	width: 20%;
+	float: left;
+}
+
+.lineup-list h2 {
+	display: none;
+}
+
+.lineup-list ul {
+	overflow: hidden;
+}
+
+.lineup-list li {
+	margin: 7px;
+	border-left: 8px solid #ff02ff;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.lineup-list li a {
+	position: relative;
+	display: block;
+	padding: 7px 7px 7px 10px;
+	margin-left: 7px;
+	border-bottom: 1px dotted #333333;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 90%;
+	overflow: hidden;
+}
+
+.lineup-list li a::after {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background-color: #ff02ff;
+	border-bottom: 1px solid #ff02ff;
+	transform-origin: left;
+	z-index: -1;
+	-webkit-transition: all .6s cubic-bezier(.19, 1, .22, 1);
+	-moz-transition: all .6s cubic-bezier(.19, 1, .22, 1);
+	-ms-transition: all .6s cubic-bezier(.19, 1, .22, 1);
+	-o-transition: all .6s cubic-bezier(.19, 1, .22, 1);
+	transition: all .6s cubic-bezier(.19, 1, .22, 1);
+}
+
+.lineup-list li a:hover::after {
+	width: 100%;
+}
+
+.lineup-list li a.on {
+	background-color: #ff02ff;
+	border-bottom: 1px solid #ff02ff;
+}
+
+
+/***** section *****/
+
+.section-content-right {
+	width: 75%;
+	float: right;
+}
+
+.section-content-right h2 {
+	display: none;
+}
+
+.lineup-all-list ul {
+	overflow: hidden;
+	margin: -20px;
+}
+
+.lineup-all-list li {
+	position: relative;
+	float: left;
+	width: 355px;
+	height: 240px;
+	margin: 20px;
+}
+
+.lineup-all-list li a {
+	display: block;
+}
+
+.lineup-all-list li a img {
+	width: 100%;
+	height: 100%;
+}
+
+.lineup-all-list li a span.bgcolor {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.1);
+	-webkit-transition: all .6s cubic-bezier(.19, 1, .22, 1);
+	-moz-transition: all .6s cubic-bezier(.19, 1, .22, 1);
+	-ms-transition: all .6s cubic-bezier(.19, 1, .22, 1);
+	-o-transition: all .6s cubic-bezier(.19, 1, .22, 1);
+	transition: all .6s cubic-bezier(.19, 1, .22, 1);
+}
+
+.lineup-all-list li:hover>a span.bgcolor {
+	background: rgba(255, 2, 255, 0.8);
+}
+
+.lineup-all-list li a span.namelogo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.3;
+	-webkit-transition: all .6s cubic-bezier(.19, 1, .22, 1);
+	-moz-transition: all .6s cubic-bezier(.19, 1, .22, 1);
+	-ms-transition: all .6s cubic-bezier(.19, 1, .22, 1);
+	-o-transition: all .6s cubic-bezier(.19, 1, .22, 1);
+	transition: all .6s cubic-bezier(.19, 1, .22, 1);
+}
+
+.lineup-all-list li:hover>a span.namelogo {
+	opacity: 1;
+}
+
+.lineup-all-list li.lineup-01 a span.namelogo {
+	background: url(../img/lineup/ac_slater_namelogo.png) center center / cover;
+}
+
+.lineup-all-list li.lineup-02 a span.namelogo {
+	background: url(../img/lineup/villain_namelogo.png) center center / cover;
+}
+
+.lineup-all-list li.lineup-03 a span.namelogo {
+	background: url(../img/lineup/zeds_dead_namelogo.png) center center / cover;
+}
+
+.lineup-all-list li.lineup-04 a span.namelogo {
+	background: url(../img/lineup/mike_perry_namelogo.png) center center / cover;
+}
+
+.lineup-all-list li.lineup-05 a span.namelogo {
+	background: url(../img/lineup/alan_walker_namelogo.png) center center / cover;
+}
+
+.lineup-all-list li.lineup-06 a span.namelogo {
+	background: url(../img/lineup/jauz_namelogo.png) center center / cover;
+}
+
+.lineup-all-list li.lineup-07 a span.namelogo {
+	background: url(../img/lineup/excision_namelogo.png) center center / cover;
+}
+
+.lineup-all-list li.lineup-08 a span.namelogo {
+	background: url(../img/lineup/party_favor_namelogo.png) center center / cover;
+}
+
+.lineup-all-list li.lineup-09 a span.namelogo {
+	background: url(../img/lineup/audiotricz_namelogo.png) center center / cover;
+}
+
+.lineup-all-list li.lineup-10 a span.namelogo {
+	background: url(../img/lineup/borgeous_namelogo.png) center center / cover;
+}
+
+.lineup-all-list li.lineup-11 a span.namelogo {
+	background: url(../img/lineup/brennan_heart_namelogo.png) center center / cover;
+}
+
+.lineup-all-list li.lineup-12 a span.namelogo {
+	background: url(../img/lineup/bass_modulators_namelogo.png) center center / cover;
+}
+
+a.top {
+	position: absolute;
+	right: 5px;
+	bottom: 0;
+	display: block;
+	width: 35px;
+	height: 28px;
+	background: url(../img/lineup/top.png) center;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-transition: all .3s cubic-bezier(.19, 1, .22, 1);
+	-moz-transition: all .3s cubic-bezier(.19, 1, .22, 1);
+	-ms-transition: all .3s cubic-bezier(.19, 1, .22, 1);
+	-o-transition: all .3s cubic-bezier(.19, 1, .22, 1);
+	transition: all .3s cubic-bezier(.19, 1, .22, 1);
+}
+
+a.top:hover {
+	background: url(../img/lineup/top_hover.png) no-repeat center center / cover;
+}

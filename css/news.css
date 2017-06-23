@@ -1,0 +1,143 @@
+/* news.css */
+
+
+/***** section *****/
+
+.news-category-list {
+	overflow: hidden;
+	font-size: 0;
+	text-align: center;
+	border-bottom: 2px solid #ff02ff;
+}
+
+.news-category-list dt {
+	display: none;
+}
+
+.news-category-list dd {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	margin: 0;
+	width: 247px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.news-category-list dd+dd {
+	margin-left: 4px;
+}
+
+.news-category-list dd a {
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: all .6s cubic-bezier(.19, 1, .22, 1);
+	-moz-transition: all .6s cubic-bezier(.19, 1, .22, 1);
+	-ms-transition: all .6s cubic-bezier(.19, 1, .22, 1);
+	-o-transition: all .6s cubic-bezier(.19, 1, .22, 1);
+	transition: all .6s cubic-bezier(.19, 1, .22, 1);
+}
+
+.news-category-list dd a.on,
+.news-category-list dd a:hover {
+	background: #ff02ff
+}
+
+.news-list {
+	padding: 10px 0;
+	height: 1266px;
+	overflow: hidden;
+	border-bottom: 2px solid gray;
+}
+
+.news-list h2 {
+	display: none;
+}
+
+.news-list ul {
+	overflow: hidden;
+}
+
+.news-list li {
+	float: left;
+	width: 33.333333%;
+	height: 422px;
+}
+
+.news-list li a {
+	display: block;
+	margin: 10px 20px;
+	padding: 10px;
+	-webkit-transition: all .3s cubic-bezier(.19, 1, .22, 1);
+	-moz-transition: all .3s cubic-bezier(.19, 1, .22, 1);
+	-ms-transition: all .3s cubic-bezier(.19, 1, .22, 1);
+	-o-transition: all .3s cubic-bezier(.19, 1, .22, 1);
+	transition: all .3s cubic-bezier(.19, 1, .22, 1);
+}
+
+.news-list li a:hover {
+	background-color: #333333;
+}
+
+.news-list li a p {
+	padding: 4px 0;
+	font-weight: bold;
+}
+
+.news-list li a p.news-no {
+	color: darkgray;
+	font-size: 14px;
+}
+
+.news-list li a p.news-category {
+	color: darkgray;
+	font-size: 12px;
+}
+
+.news-list li a p.news-img img {
+	width: 100%;
+	height: 100%;
+}
+
+.news-list li a p.news-title {
+	font-size: 15px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.news-list li a p.news-date {
+	color: #009cff;
+	font-size: 12px;
+}
+
+.news-page {
+	margin: 15px 0;
+	text-align: center;
+}
+
+.news-page p {
+	display: inline-block;
+	margin: 5px;
+	padding: 5px;
+	font-size: 17px;
+}
+
+.news-page p.on {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.news-page p.arrow-pre,
+.news-page p.arrow-next {
+	color: #ff02ff;
+	font-weight: bold;
+}
