@@ -1,5 +1,8 @@
 # wdf
 
+- 개발 100%
+- 디자인 100%
+
 ### 1. 홈
 
 ![main](https://user-images.githubusercontent.com/14077108/135460403-fd51bf8d-01ca-4171-aa91-52842d10f1b6.png)
