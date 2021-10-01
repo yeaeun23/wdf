@@ -47,7 +47,7 @@
 - http://bestcss.in/
 - http://abduzeedo.com/
 - http://www.gdweb.co.kr/
-- http://www.dbcut.com
+- http://www.dbcut.com/
 
 ### 뮤직 페스티벌
 
