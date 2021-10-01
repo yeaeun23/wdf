@@ -29,6 +29,38 @@
 
 ![faq](https://user-images.githubusercontent.com/14077108/135460388-788620b1-09d7-41ef-befc-a4393c41ab35.png)
 
-## 2. 디자인 참고
+## 2. 참고 사이트
 
-  
+### 웹디자인
+- https://www.pinterest.com/
+- https://www.behance.net/
+- http://freefrontend.com/
+- http://themeforest.net/ 
+- http://www.awwwards.com/
+- http://bestwebgallery.com/
+- http://www.thebestdesigns.com/
+- http://www.cssawards.net/
+- http://www.cssdesignawards.com/
+- http://www.csslight.com/ 
+- http://www.csswinner.com/
+- http://htmlinspiration.com/
+- http://bestcss.in/
+- http://abduzeedo.com/
+- http://www.gdweb.co.kr/
+- http://www.dbcut.com
+
+### 뮤직 페스티벌
+
+- (WDF) http://www.wdjfest.com
+- (WDF) http://www.worlddjfest.com
+- (WDF) https://www.facebook.com/worlddjfestival
+- (WDF) https://www.instagram.com/worlddjfestival
+- (WDF) https://twitter.com/worlddjfestival
+- (WDF) https://www.youtube.com/channel/UCMFDtKeBJys0ZC2CWRrjzBA
+- http://fortressfestival.com
+- http://www.greenman.net
+- http://www.influencegrp.com
+- (UMF) https://umfkorea.com
+- (SJF) http://www.seouljazz.co.kr
+- (GMF) https://www.mintpaper.co.kr
+- (Vivid Sydney) https://www.vividsydney.com
