@@ -21,9 +21,9 @@
 
 ![제목 없음-5](https://user-images.githubusercontent.com/14077108/135568511-b236b370-f187-4739-823f-5f6a1bb79542.png)
 
-* <b>갤러리</b>
+* <b>갤러리 / 상세</b>
 
-![gallery](https://user-images.githubusercontent.com/14077108/135460394-5a7bebd4-3e34-41f0-bd1c-ea8c7fe3e7ce.png)
+![제목 없음-6](https://user-images.githubusercontent.com/14077108/135569533-4174561b-c47e-4637-97d9-0fd8f940cbcf.png)
 
 * <b>문의</b>
 
